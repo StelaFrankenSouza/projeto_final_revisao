@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+   width: 100vw;
+   height: 100vh;
+   background-image: url(../assets/space-g92fac739a_1920.png);
+}
+
+
+
+main{
+    
+    /* background-position: center; */
+}
+
+.card-login{
+    width: 350px;
+    height: min-content;
+    padding: 10px;
+    /* border-radius: px; */
+}
+
+.card-login h1{
+    font-size: 3.6 rem;
+    margin-bottom: 25px;
+}
+
+.card-login form{
+    font-size: 1.8rem;
+}
+
+.card-login form .form-group{
+    margin-bottom: 10px;
+}
+
+.card-login form input[type="submit"]{
+   
+    margin-top: 10px;
+
+}
+
+
+.card-login form input{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+
+
+th{
+    
+    font-size: 2rem;
+    padding: 30px;
+    
+}
+.legend{
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.disco-voador{
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 22%;
+    top: 5%;
+    /* z-index: 2; */
+    rotate: -30deg;
+    width: 150px;
+    height: 150px;
+    animation: disco-voador 7s  linear 
+  
+    
+    
+    
+}
+ 
+
+@keyframes disco-voador{
+    0% {
+        left: calc(50% - 80px);
+        top: 60%;
+        rotate: -30deg;
+        width: 150px;
+        height: 150px;
+        opacity: 0%;
+      }
+      50%{
+        
+        top: 30%;
+        rotate: -30deg;
+        width: 150px;
+        height: 150px;
+        opacity: 50%;
+      }
+      100% {
+        left: 22%;
+        top: 5%;
+        rotate: -30deg;
+        width: 150px;
+        height: 150px;
+        opacity: 100%;
+      }
+    
+}
+
+.disco-cinza{
+    position: absolute;
+    /* left: 0%;
+    bottom: 0%; */
+    /* z-index: ; */
+    rotate: 360deg;
+    width: 150px;
+    height: 150px;
+    animation: disco-cinza 40s infinite
+}
+
+@keyframes disco-cinza{
+    0%{
+        bottom: 0%;
+        left: 0%;
+        
+        /* rotate: 0deg; */
+        width: 150px;
+        height: 150px;
+    
+
+    }
+    20%{
+        bottom: 10%;
+        left: 20%;
+        width: 150px;
+        height: 150px;
+    
+    }
+    40%{
+        bottom: 0%;
+        left: 40%;
+        width: 150px;
+        height: 150px;
+    
+    }
+    60%{
+        bottom: 10%;
+        left: 60%;
+        width: 150px;
+        height: 150px;
+    }
+
+
+    100%{
+        left:  100%;
+        bottom: 0%;
+        /* rotate: 360deg; */
+        width: 150px;
+        height: 150px;
+    
+    }
+
+}
+
+table{
+    position: absolute;
+    bottom: 200px;
+}
+
+.et-nave{
+    
+    position: absolute;
+    z-index: 2;
+    
+    right: 10px;
+    width: 200px;
+    height: 200px;
+    animation: et-nave 10s infinite
+    
+
+}
+
+@keyframes et-nave{
+    0%{
+        right: 0%;
+        top: 0%;
+        
+      
+    }
+    10%{
+        right:10%;
+        top: 0%;
+      
+    }
+    20%{
+
+        right: 20%;
+        top: 10%;
+      
+       
+    }
+    30%{
+        right: 30%;
+        top: 0%;
+    }
+    40%{
+        right: 40%;
+        top: 10%;
+      
+        
+    }
+    50%{
+        right: 50%;
+        top: 0%;
+      
+       
+    }
+    60%{
+        right: 60%;
+        top: 10%;
+      
+        
+    }
+    70%{
+        right: 70%;
+        top: 0%;
+      
+        
+    }
+    80%{
+        right: 80%;
+        top: 10%;
+      
+       
+    }
+    90%{
+        right: 90%;
+        top: 0%;
+      
+       
+    }
+    100%{
+        right: 100%;
+        top: 10%;
+      
+      
+       
+    }
+   
+}
+
+.et-coracao1{
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    right: 70px;
+    width: 100px;
+    height: 100px;
+    /* animation: et-coracao 10s  */
+    animation: et-coracao1 10s infinite;
+}
+
+@keyframes et-coracao1 {
+
+    0%{
+        right: 0%;
+        top: 10%;
+       
+    }
+   
+    100%{
+        right: 0%;
+        top: 100%;
+       
+      
+    }
+}
+
+.et-coracao2{
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    right: 70px;
+    width: 100px;
+    height: 100px;
+    /* animation: et-coracao 10s  */
+    animation: et-coracao2 10s infinite;
+}
+
+@keyframes et-coracao2{
+  
+   
+    100%{
+        right: 50%;
+        top: 100%;
+       
+      
+    }
+}
+
+.et-coracao3{
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+    right: 70px;
+    width: 100px;
+    height: 100px;
+    /* animation: et-coracao 10s  */
+    animation: et-coracao3 10s infinite;
+}
+
+@keyframes et-coracao3{
+  
+   
+    100%{
+        right: 100%;
+        top: 100%;
+       
+      
+    }
+}
